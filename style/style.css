@@ -1,5 +1,5 @@
 * {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
@@ -18,7 +18,7 @@ main {
 }
 
 main p{
-    font-size: 0.7rem;
+    font-size: 0.8em;
 }
 
 section#login {

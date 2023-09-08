@@ -59,7 +59,7 @@ input {
     height: 35px;
     border: none;
     border-radius: 5px;
-    outline:none;
+    outline-color: rgba(0, 0, 0, 0.215);
     padding-left: 10px;
 }
 

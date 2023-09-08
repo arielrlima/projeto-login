@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="assets/style/style.css">
     <title>Login</title>
 </head>
 <body>
@@ -13,14 +13,14 @@
             <div id="imagem"></div>
             <div id="formulario">
                 <h1>Login</h1>
-                <form action="login.php" method="post">
+                <form action="assets/login.php" method="post">
                     <div class="campo">
                         <label for="ilogin"></label>
-                        <input type="email" name="login" id="ilogin" placeholder="E-mail" autofocus>
+                        <input type="email" name="login" id="ilogin" placeholder="E-mail" autofocus autocomplete="off">
                     </div>
                     <div class="campo">
                         <label for="isenha"></label>
-                        <input type="password" name="senha" id="isenha" placeholder="Senha">
+                        <input type="password" name="senha" id="isenha" placeholder="Senha" autocomplete="off">
                     </div>
                     <input type="submit" value="Entrar">
                 </form>

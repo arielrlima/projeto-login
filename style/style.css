@@ -21,6 +21,10 @@ main p{
     font-size: 0.8em;
 }
 
+header {
+    background-color: #24252a;
+}
+
 section#login {
     position: absolute;
     top: 50%;

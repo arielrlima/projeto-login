@@ -119,5 +119,6 @@ form input[type=submit]:hover {
     section#login div#formulario {
         float: right;
         width: 50%;
+        padding-top: 15%;
     }
 }

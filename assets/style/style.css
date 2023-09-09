@@ -21,6 +21,12 @@ main p{
     font-size: 0.8em;
 }
 
+main h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 2em;
+}
+
 header {
     background-color: #24252a;
 }
@@ -32,7 +38,7 @@ section#login {
     margin-right: -50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    background-color: antiquewhite;
+    background-color: #f8fafc;
     width: 90%;
     height: 80%;
     border-radius: 5px;
@@ -89,6 +95,12 @@ form input[type=submit]:hover {
     color: bisque;
     border: none;
     border-radius: 5px;
+}
+
+#form-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
